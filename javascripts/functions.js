@@ -28,3 +28,16 @@ let arrMax = (arr) => {
 
 //test
 arrMax([1,2,3,4,]) //4
+
+
+// Req. 3D
+
+sumEvens = (arr) => {
+  var sum = 0;
+  for (x of arr) {
+    if(x % 2 ==0) {
+      sum = sum + x;
+    }
+  }
+  return sum;
+}
