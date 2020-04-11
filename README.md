@@ -9,3 +9,5 @@
 - Markdown language for README files
 - JavaScript ES6+ features
 - one additional thing: a different way to use atom!
+
+![github image](images/github.png)
