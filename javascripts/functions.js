@@ -1,5 +1,5 @@
 // jshint esversion: 6
-
+//DONE
 // Req. 3b
 let arrAvg = (arr) => {
   let sum = 0;
