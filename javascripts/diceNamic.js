@@ -22,7 +22,7 @@ console.log(``)
 
   die1URL = `image/die${die1}.gif`;
   console.log(die1URL);
-  imgElem1 = document.querySelector("#imgElem1");
+  imgElem1 = document.querySelector("img");
   imgElem1.setAttribute("src", die1URL);
 
 
@@ -30,6 +30,8 @@ console.log(``)
   console.log(die2URL);
   imgElem2 = document.querySelectorAll("img")[1];
   imgElem2.setAttribute("src", die2URL);
+
+  
 }
 
 window.addEventListener("load",() => {
